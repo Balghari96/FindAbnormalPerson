@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:checkableBehavior="single">
+
+        <item
+            android:id="@+id/nav_home"
+            android:icon="@drawable/ic_baseline_home_24"
+            android:title="Home" />
+
+        <item
+            android:id="@+id/nav_GetHeightOfObject"
+            android:title="Object Height" />
+
+        <item
+            android:id="@+id/nav_GetDistanceOfObject"
+            android:title="Object Distance" />
+
+
+        <item
+            android:id="@+id/nav_GetTextFromImage"
+            android:title="Extract text" />
+
+        <item
+            android:id="@+id/nav_TranslateTextIntoDifferentLanguage"
+            android:title="Translate text" />
+
+    </group>
+
+    <item android:title="Authentication">
+
+        <menu>
+
+            <group android:checkableBehavior="single">
+
+                <item
+                    android:id="@+id/nav_logout"
+                    android:icon="@drawable/ic_baseline_exit_to_app_24"
+                    android:title="Logout" />
+
+
+            </group>
+
+        </menu>
+
+    </item>
+
+
+</menu>
